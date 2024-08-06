@@ -18,9 +18,9 @@ So `BasePage` is the base class for all the AUT's Page Objects, while `BaseApi` 
 
 To set up the framework locally, follow these steps:
 
-1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer)
-2. Clone this repo
-3. Open a terminal in the repo's root folder and run:
+- Install [Node.js](https://nodejs.org/en/download/prebuilt-installer)
+- Clone this repo
+- Open a terminal in the repo's root folder and run:
 ```
 npm install
 npx playwright install --with-deps
