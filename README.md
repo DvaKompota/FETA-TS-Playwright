@@ -1,4 +1,4 @@
-# FETA-TS-Playwright
+# Front-End Test Automation framework using Playwright on TypeScript
 
 This End-to-End (E2E) test automation framework is built using Playwright.<br/>
 It utilizes Page Object and API Object Models to interact with the application under test (AUT) — [Contact List App](https://thinking-tester-contact-list.herokuapp.com/)
