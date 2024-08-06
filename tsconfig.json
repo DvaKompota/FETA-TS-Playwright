@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "types": ["node"],
+    "baseUrl": "./",
+    "paths": {
+      "@config": ["playwright.config"],
+      "@/fixtures/*": ["resources/fixtures/*"],
+      "@/api-objects/*": ["resources/api-objects/contact-list/*"],
+      "@baseApi": ["resources/api-objects/base-api"],
+      "@/page-objects/*": ["resources/page-objects/*"],
+      "@basePage": ["resources/page-objects/base-page"],
+      "@/test-data/*": ["resources/test-data/*"]
+    },
+    "strict": true,
+    "module": "commonjs",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["resources", "tests", "playwright.config.ts"]
+}
