@@ -1,6 +1,6 @@
 # Front-End Test Automation framework<br/>using Playwright with TypeScript
 
-This End-to-End (E2E) test automation framework is built using Playwright.<br/>
+This End-to-End (E2E) test automation framework is built using Playwright both as a browser interaction layer and as a test runner.<br/>
 It utilizes Page Object and API Object Models to interact with the application under test (AUT) — [Contact List App](https://thinking-tester-contact-list.herokuapp.com/)
 
 ## Structure
