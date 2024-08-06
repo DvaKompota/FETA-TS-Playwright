@@ -1,7 +1,6 @@
 import { ApiMethod } from '@baseApi';
 import { BaseContactListApi } from './base-contact-list-api';
 import { AddUserResponse, User } from '@/test-data/users';
-import { expect } from '@/fixtures/fixtures';
 
 export class Users extends BaseContactListApi {
   private path: string = 'users';

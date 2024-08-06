@@ -1,4 +1,3 @@
-import { Locator } from '@/fixtures/fixtures';
 import { User } from '@/test-data/users';
 import { BasePage } from '@basePage';
 
