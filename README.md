@@ -1,4 +1,4 @@
-# Front-End Test Automation framework using Playwright on TypeScript
+# Front-End Test Automation framework<br/>using Playwright with TypeScript
 
 This End-to-End (E2E) test automation framework is built using Playwright.<br/>
 It utilizes Page Object and API Object Models to interact with the application under test (AUT) — [Contact List App](https://thinking-tester-contact-list.herokuapp.com/)
@@ -9,7 +9,7 @@ The framework consists of:
 
 - Page Objects: Represent UI pages, containing page-specific locators and methods to interact with page elements. These objects are wrapped into the `ui` fixture.
 - API Objects: Similar to Page Objects, but for API interactions. These objects are wrapped into the `api` fixture.
-- Tests: A set of test files, divided by areas/features/functionality, that contain E2E scenarios, which interact with the application under test (UI and API), and assert the expeced behavior of the application.
+- Test example: A test file, containing an E2E scenario, which interacts with the AUT (UI and API), and asserts the expeced behavior of the application.
 
 Note that unlike the Page Objects that are kept directly in the `resources/page-objects` folder, API objects for the AUT are nested in the dedicated `resources/api-objects/contact-list` folder. The reason to do so is that the framework is supposed to interract with only one UI — the one that is being tested, while API calls can be made to different applications: AUT, dependencies, integrations, 3rd-party apps, etc.
 So `BasePage` is the base class for all the AUT's Page Objects, while `BaseApi` is the base class for all kinds of API Objects, including the AUT's, so there's a middle man called `BaseContactListApi` which serves as the base class for all the AUT's API Objects.
