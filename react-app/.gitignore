@@ -1,0 +1,15 @@
+# Node modules and dependencies
+node_modules/
+
+# Parcel build output
+dist/
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Environment files
+.env
+
+# Parcel cache
+.parcel-cache/
