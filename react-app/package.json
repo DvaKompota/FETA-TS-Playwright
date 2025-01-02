@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel build index.html --public-url ./",
+    "fmt": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@types/react-dom": "^19.0.2",
     "parcel": "^2.13.3",
     "process": "^0.11.10",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "prettier": "^2.5.1"
   }
 }
