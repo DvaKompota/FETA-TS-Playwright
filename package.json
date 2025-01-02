@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Playwright E2E test automation framework",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "keywords": [],
   "author": "Sergey Kolokolov",
   "license": "MIT",

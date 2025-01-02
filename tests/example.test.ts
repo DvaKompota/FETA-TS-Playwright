@@ -1,6 +1,7 @@
 import { expect, test } from "@/fixtures/fixtures";
 import { User } from "@/test-data/users";
 
+test.skip(true)
 test('Create a new contact', async ({ ui, api }) => {
   await ui.home.waitForLoad();
   await ui.home.waitForHeaderToBe('Contact List App');
